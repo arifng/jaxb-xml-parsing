@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<company xmlns="http://www.jaxbxmlparsing.com/sample-namespace"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <name>A company</name>
+    <code>AC20145</code>
+    <address>
+        <house_no>32</house_no>
+        <road_no>17</road_no>
+        <city>Dhaka</city>
+        <postcode>1230</postcode>
+        <country>Bangladesh</country>
+    </address>
+    <employees>
+        <employee id="124">
+            <name>Abir</name>
+            <designation>Software Engineer</designation>
+            <contact>
+                <phone>
+                    <no operator="AD">02456655</no>
+                    <land_code>88</land_code>
+                </phone>
+                <phone>
+                    <no operator="CV">05656655</no>
+                    <land_code>88</land_code>
+                </phone>
+            </contact>
+            <address>
+                <house_no>12</house_no>
+                <road_no>13</road_no>
+                <city>Dhaka</city>
+                <postcode>1212</postcode>
+                <country>Bangladesh</country>
+                <country_code>BD</country_code>
+            </address>
+            <personal>
+                <marital_status>1</marital_status>
+                <gender>Male</gender>
+                <age>35</age>
+            </personal>
+            <joining_date>01-05-2014</joining_date>
+            <salary>120000</salary>
+        </employee>
+        <employee id="343">
+            <name>Abdullah</name>
+            <designation>Software Engineer</designation>
+            <contact>
+                <phone>
+                    <no operator="RT">03423232</no>
+                    <land_code>88</land_code>
+                </phone>
+                <phone>
+                    <no operator="CV">05656678</no>
+                    <land_code>88</land_code>
+                </phone>
+                <phone>
+                    <no operator="CV">05656005</no>
+                    <land_code>88</land_code>
+                </phone>
+            </contact>
+            <address>
+                <house_no>3034</house_no>
+                <road_no>5C</road_no>
+                <city>Dhaka</city>
+                <postcode>1231</postcode>
+                <country>BD</country>
+            </address>
+            <personal>
+                <marital_status>0</marital_status>
+                <gender>Male</gender>
+                <age>30</age>
+            </personal>
+            <joining_date>01-05-2015</joining_date>
+            <salary>80000</salary>
+        </employee>
+    </employees>
+</company>
